@@ -1,0 +1,10 @@
+*{
+  font-family: 'Zen Old Mincho', serif;
+}
+.color-nav{
+  background-color: #90EE90;
+}
+.container-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
