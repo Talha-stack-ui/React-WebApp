@@ -29,7 +29,7 @@ const Bcard = ({img,title,text,unique}) => {
                     {text}
                 </Card.Text>
                 {/* <Button variant="primary">Go somewhere</Button> */}
-                <Button to="/contact" className="btn btn-primary" onClick={()=>console.log(unique)}>Enquiry</Button>
+                <Link to="/contact" className="btn btn-primary" onClick={()=>console.log(unique)}>Enquiry</Link>
             </Card.Body>
         </Card>
     )
